@@ -1,0 +1,146 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.nav-link{
+    text-decoration: none;
+   color: #193D3D;
+}
+header{
+    display: flex;
+    background-color: #AED8D0;
+    min-height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.icon{
+   display: flex;
+   align-items: center;
+}
+.icon img{
+    position: absolute;
+    left: 50px;
+    height: 100px;
+    margin-right: 12px;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+nav a{
+    position:static;
+    left: 50px;
+    font-size: 35px;
+    font-weight: 700;
+    padding-right: 110px;
+}
+nav a:hover{
+    color: #F98351;
+}
+
+@media (max-width: 680px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+.seccion{
+    justify-content: space-between;
+    width: 100%;
+    height: 400px;  
+  }
+
+  .seccion3 {
+    border: solid 10px #193D3D;
+    width: 900px; /* Ancho de 900px */
+    padding: 20px; /* Espacio alrededor del contenido */
+    background-color: #193D3D;
+
+  }
+  .image {
+    background-image: url(zoo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 900px;
+    width: 100%;
+    /* width: 100%; Si deseas que la imagen cubra todo el ancho del contenedor */
+}
+
+
+
+
+  .text1 {
+    font-size: 20px;
+    width: 100%; /* Ancho al 100% del contenedor */
+  }
+
+  .textarea2 {
+
+    width: 100%; /* Ancho al 100% del contenedor */
+  }
+
+  .btn-descargar {
+    background-color: #F98351;
+    color: #F1F2EC;
+    border-color: #193D3D;
+    color: white;
+    font-size: 20px;
+    padding: 10px; /* Espacio alrededor del botón */
+  }
+
+  .btn-descargar:hover {
+    background-color: #299E3C;
+  }
+  .textform{
+    color: white;
+  }
+
+
+
+
+
+
+.seccion4 {
+    text-align: center;
+    background-color: #73A663;
+  }
+  
+  .table4 {
+    margin: 0 auto; /* Centramos la tabla en el contenedor */
+  }
+  
+  .sec4tt {
+    padding: 0 50px; /* Agregamos el espaciado de 50px a cada lado */
+    font-size: 30px;
+    color: white;
+  }
+  .sec5tt{
+    padding: 0 50px; /* Agregamos el espaciado de 50px a cada lado */
+    font-size: 15px;
+    color: white;
+  }
+  .boton{
+    background-color: #F98351;
+    color: #F1F2EC;
+    border-color: #193D3D;
+  }
+  .boton:hover{
+    background-color: #299E3C;
+  }
+  .link{
+    text-decoration: none;
+   color: #ffffff;
+  }
